@@ -31,11 +31,11 @@ jobs:
 
     - name: generate_xh_schema.py
       run: |
-        python program/release/generate_moqi_schema.py
+        python program/release/generate_xh_schema.py
 
     - name: generate_zrm_schema.py
       run: |
-        python program/release/generate_moqi_schema.py
+        python program/release/generate_zrm_schema.py
 
     - name: generate_fancha_en_jp.py
       run: |
