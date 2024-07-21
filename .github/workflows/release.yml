@@ -46,8 +46,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: rime-所有方案全家桶.zip
-        asset_name: rime-所有方案全家桶.zip
+        asset_path: rime-all-schemas.zip
+        asset_name: rime-all-schemas.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
 
@@ -56,8 +56,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: 墨奇码辅助码for手心输入法.txt
-        asset_name: 墨奇码辅助码for手心输入法.txt
+        asset_path: shouxin-moqi-aux-code-for-shouxin-input-method.txt
+        asset_name: shouxin-moqi-aux-code-for-shouxin-input-method.txt
         asset_content_type: text/plain
         upload_url: ${{ github.event.release.upload_url }}
 
@@ -66,8 +66,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: rime-墨奇音形全家桶(4万字支持小鹤自然码微软搜狗双拼辅).zip
-        asset_name: rime-墨奇音形全家桶(4万字支持小鹤自然码微软搜狗双拼辅).zip
+        asset_path: rime-moqi-schemas.zip
+        asset_name: rime-moqi-schemas.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
     
@@ -76,8 +76,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: rime-墨奇版小鹤双拼鹤形.zip
-        asset_name: rime-墨奇版小鹤双拼鹤形.zip
+        asset_path: rime-flypy-flypy.zip
+        asset_name: rime-flypy-flypy.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
 
@@ -86,8 +86,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: rime-墨奇版自然码双拼辅助码.zip
-        asset_name: rime-墨奇版自然码双拼辅助码.zip
+        asset_path: rime-zrm-zrm.zip
+        asset_name: rime-zrm-zrm.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
 
@@ -96,7 +96,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        asset_path: rime-反查-英语-日语等.zip
-        asset_name: rime-反查-英语-日语等.zip
+        asset_path: rime-reverse-and-english-and-emoji.zip
+        asset_name: rime-reverse-and-english-and-emoji.zip
         asset_content_type: application/zip
         upload_url: ${{ github.event.release.upload_url }}
