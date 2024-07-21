@@ -1,0 +1,11 @@
+# Rime table
+#@/db_name	user.custom.dict
+#@/db_type	tabledb
+#@/rime_version	1.11.2
+#@/tick	42
+烦闷	fj[hy mf[mx	0
+烦闷之中	fj[hy mf[mx vi[dn vs[kl	2
+之中	vi[dn vs[kl	0
+一把	yi[aa ba[fb	0
+优化	yz[ry hx[rb	0
+优化一把	yz[ry hx[rb yi[aa ba[fb	2
